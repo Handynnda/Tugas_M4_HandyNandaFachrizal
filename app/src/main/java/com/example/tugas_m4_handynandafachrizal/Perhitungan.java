@@ -73,7 +73,7 @@ public class Perhitungan extends AppCompatActivity {
                 keterangan = "Lulus Nilai A";
             } else if (nilai >= 61) {
                 keterangan = "Lulus Nilai B";
-            } else if (nilai >= 49) {
+            } else if (nilai >= 51) {
                 keterangan = "Lulus Nilai C";
             } else {
                 keterangan = "Tidak Lulus";

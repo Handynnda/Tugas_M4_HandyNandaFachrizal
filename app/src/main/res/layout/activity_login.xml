@@ -74,11 +74,12 @@
                     android:layout_height="match_parent"
                     app:srcCompat="@drawable/icon_user" />
 
-                <EditText
+                <AutoCompleteTextView
                     android:id="@+id/Username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
+                    android:completionThreshold="3"
                     android:hint="masukan username"
                     android:inputType="text" />
 
